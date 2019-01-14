@@ -1,0 +1,75 @@
+/* General */
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #EEE;
+    font: 18px Arial, serif;
+}
+
+#main-content {
+    width: 750px;
+    margin: 20px auto;
+    padding: 10px 0 20px;
+    text-align: center;
+}
+
+h1 {
+    font: 24px Arial, sans-serif;
+}
+
+/* Forms */
+form select, form select option {
+    font: 14px Arial, sans-serif;
+    padding: 3px 6px;
+}
+
+form select.timezone {
+    width: 300px;
+}
+
+form input[type="text"] {
+    font: 14px Arial, sans-serif;
+    padding: 3px 6px;
+}
+
+.controls {
+    margin-top: 0;
+}
+
+.controls input {
+    font: 14px Arial, sans-serif;
+    width: 100px;
+    height: 30px;
+    color: black;
+    background: white;
+}
+
+.controls input:hover {
+    color: white;
+    background: black;
+}
+
+dl {
+    margin: 0 20px 20px;
+    text-align: left;
+}
+
+dl dt {
+    display: inline-block;
+    width: 150px;
+}
+
+dl dd {
+    display: inline-block;
+    width: 500px;
+    text-align: left;
+}
